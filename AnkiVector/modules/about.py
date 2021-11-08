@@ -1,14 +1,7 @@
 __help__ = """
-** Anki Vector - A Powerful Telegram Group Manager 🎶 **
+** PBC MAIN BOT - A Powerful Telegram Group Manager ☘**
 
-Powerful Abilities
 
-• Group Voice Chat Music Play ❤️
-
-• File To Link and URL Upload 📂
-
-• Youtube Downloader 🎵
-
-Developers [TeamAnkiVector🇱🇰](https://t.me/TeamAnkiVector)
+Developer [HASINDU HIMASARA](https://t.me/HASINDU_HIMASARA)
 """
 __mod_name__ = "About"
