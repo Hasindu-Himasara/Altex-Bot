@@ -76,11 +76,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="DEVELOPER", url="https://t.me/HASINDU_HIMASARA"),
-        InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/PBC_MAIN_BOT?start=help"),
+        InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/PBC_MAIN_LK_BOT?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴀɴᴋɪ ᴠᴇᴄᴛᴏʀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/PBC_MAIN_BOT?startgroup=true"
+            text="➕ ADD PBC MAIN BOT TO YOUR GROUP ➕", url="t.me/PBC_MAIN_LK_BOT?startgroup=true"
         ),
     ],
 ]
@@ -89,7 +89,7 @@ buttons = [
 ANKIVECTOR_IMG = "https://telegra.ph/file/58bf0f76af528c2e2500f.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
+*Main Commands :* [🤖](https://telegra.ph/file/58bf0f76af528c2e2500f.jpg)
 
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
