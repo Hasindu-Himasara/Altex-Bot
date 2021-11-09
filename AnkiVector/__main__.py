@@ -790,7 +790,6 @@ def donate(update: Update, context: CallbackContext):
         )
         update.effective_message.reply_text(
             "You can donate and send a message to this Telegram Username. @HASINDU_HIMASARA (Owner)"
-            "[here]({})".format(DONATION_LINK),
             parse_mode=ParseMode.MARKDOWN,
         )
 
