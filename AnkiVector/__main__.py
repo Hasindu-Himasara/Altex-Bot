@@ -104,7 +104,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them Hasindu Himasara (http://t.me/HASINDU_HIMASARA)"""
+Support them  [Hasindu Himasara](t.me/HASINDU_HIMASARA)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -788,7 +788,7 @@ def donate(update: Update, context: CallbackContext):
     if chat.type == "private":
         update.effective_message.reply_text(
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
-          )
+        )
         update.effective_message.reply_text(
             "You can also donate to the person currently running me "
             "[here]({})".format(DONATION_LINK),
