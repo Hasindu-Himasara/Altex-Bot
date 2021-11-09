@@ -102,7 +102,9 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = """You can donate and send a message to this Telegram Username. (Owner) 👉 [Hasindu Himasara](t.me/HASINDU_HIMASARA)"""
+DONATE_STRING = """Heya, glad to hear you want to donate!
+You can donate to the original writer's of the Base code,
+Support them Hasindu Himasara (http://t.me/HASINDU_HIMASARA)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -788,7 +790,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
         update.effective_message.reply_text(
-            "You can donate and send a message to @HASINDUHIMASARA"
+            "You can also donate to the person currently running me"
             "[here]({})".format(DONATION_LINK),
             parse_mode=ParseMode.MARKDOWN,
         )
