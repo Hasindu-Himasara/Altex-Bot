@@ -63,7 +63,7 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-𝙃𝙚𝙡𝙡𝙤 𝙩𝙝𝙚𝙧𝙚, 𝙄'𝙢 [PBC MAIN BOT](t.me/PBC_MAIN_LK_BOT) 🍀
+𝙃𝙚𝙡𝙡𝙤 𝙩𝙝𝙚𝙧𝙚, 𝙄'𝙢 [Altex Bot](t.me/PBC_MAIN_LK_BOT) 🍀
 𝙄'𝙢 𝙖 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡 𝙜𝙧𝙤𝙪𝙥 𝙢𝙖𝙣𝙖𝙜𝙚𝙧 𝙗𝙤𝙩 𝙒𝙞𝙩𝙝 𝘾𝙤𝙤𝙡 𝙈𝙤𝙙𝙪𝙡𝙚𝙨. 𝙈𝙖𝙙𝙚 𝙗𝙮 @HASINDU_HIMASARA
 𝙃𝙞𝙩 /help 𝙩𝙤 𝙛𝙞𝙣𝙙 𝙢𝙮 𝙡𝙞𝙨𝙩 𝙤𝙛 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 🙋‍♂️
  
@@ -71,16 +71,16 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🍀 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/TECH_WIDE_GROUP"),
-        InlineKeyboardButton(text="🙋‍♂️ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/TECH_WIDE_GROUP"),
+        InlineKeyboardButton(text="🛠 UPDATES CHANNEL 🛠", url="https://t.me/TECH_WIDE_GROUP"),
+        InlineKeyboardButton(text="☘ SUPPORT GROUP ☘", url="https://t.me/TECH_WIDE_GROUP"),
     ],
     [
-        InlineKeyboardButton(text="DEVELOPER", url="https://t.me/HASINDU_HIMASARA"),
-        InlineKeyboardButton(text="❔ ʜᴇʟᴘ", url="http://t.me/PBC_MAIN_LK_BOT?start=help"),
+        InlineKeyboardButton(text="🙋‍♂️ DEVELOPER 🙋‍♂️", url="https://t.me/HASINDU_HIMASARA"),
+        InlineKeyboardButton(text="❔ HELP ❓", url="http://t.me/PBC_MAIN_LK_BOT?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ ADD PBC MAIN BOT TO YOUR GROUP ➕", url="t.me/PBC_MAIN_LK_BOT?startgroup=true"
+            text="➕Alex Bot TO YOUR GROUP ➕", url="t.me/PBC_MAIN_LK_BOT?startgroup=true"
         ),
     ],
 ]
@@ -364,8 +364,8 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Hasindu HImasara.* "
-            f"\n\n Join [PBC MAIN BOT UPDATES](https://t.me/TECH_WIDE_GROUP) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            text=f"* Hi There  The name's Altex Bot\n\nAs  You I'm a next generational group management bot developed by Hasindu HImasara.* "
+            f"\n\n Join [PBC MAIN BOT UPDATES](https://t.me/TECH_WIDE_GROUP) To Keep Yourself Updated About Altex Bot"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -398,7 +398,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [PBC MAIN BOT Support](https://t.me/TECH_WIDE_GROUP).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Altex Bot Support](https://t.me/TECH_WIDE_GROUP).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -480,7 +480,7 @@ def AnkiVector_about_callback(update, context):
             f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of AnkiVectorBot we are not resposible for anything."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of Altex Bot we are not resposible for anything."
             f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
@@ -789,7 +789,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
         update.effective_message.reply_text(
-            "You can also donate to the person currently running me "
+            "You can donate and send a message to this Telegram Username. @HASINDU_HIMASARA (Owner)"
             "[here]({})".format(DONATION_LINK),
             parse_mode=ParseMode.MARKDOWN,
         )
