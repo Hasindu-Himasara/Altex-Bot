@@ -63,9 +63,9 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-𝙃𝙚𝙡𝙡𝙤 𝙩𝙝𝙚𝙧𝙚, 𝙄'𝙢  [Altex Bot](t.me/PBC_MAIN_LK_BOT)
-𝙄'𝙢 𝙖 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡 𝙜𝙧𝙤𝙪𝙥 𝙢𝙖𝙣𝙖𝙜𝙚𝙧 𝙗𝙤𝙩 𝙒𝙞𝙩𝙝 𝘾𝙤𝙤𝙡 𝙈𝙤𝙙𝙪𝙡𝙚𝙨. 𝙈𝙖𝙙𝙚 𝙗𝙮 Programming Boy Corporation ©️ Team 
-𝙃𝙞𝙩 /help 𝙩𝙤 𝙛𝙞𝙣𝙙 𝙢𝙮 𝙡𝙞𝙨𝙩 𝙤𝙛 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 🕹
+🙋‍♂️𝙃𝙚𝙡𝙡𝙤 𝙩𝙝𝙚𝙧𝙚, 𝙄'𝙢  [Altex Bot](t.me/PBC_MAIN_LK_BOT) Corporation ©️ Team\n
+☘ I'am a Powerful Group Manager Bot With Cool Modules.\n☘ Made By  Programming Boy Corporation ©️ Team\n
+☘ Hit /help to find My List Of Available Commands.
  
 """
 
@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Alex Bot TO YOUR GROUP ➕", url="t.me/PBC_MAIN_LK_BOT?startgroup=true"
+            text="➕ Altex Bot TO YOUR GROUP ➕", url="t.me/PBC_MAIN_LK_BOT?startgroup=true"
         ),
     ],
 ]
