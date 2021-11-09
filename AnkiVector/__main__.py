@@ -66,6 +66,7 @@ PM_START_TEXT = """
 𝙃𝙚𝙡𝙡𝙤 𝙩𝙝𝙚𝙧𝙚, 𝙄'𝙢 [Altex Bot](t.me/PBC_MAIN_LK_BOT) 🍀
 𝙄'𝙢 𝙖 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡 𝙜𝙧𝙤𝙪𝙥 𝙢𝙖𝙣𝙖𝙜𝙚𝙧 𝙗𝙤𝙩 𝙒𝙞𝙩𝙝 𝘾𝙤𝙤𝙡 𝙈𝙤𝙙𝙪𝙡𝙚𝙨. 𝙈𝙖𝙙𝙚 𝙗𝙮 @HASINDU_HIMASARA
 𝙃𝙞𝙩 /help 𝙩𝙤 𝙛𝙞𝙣𝙙 𝙢𝙮 𝙡𝙞𝙨𝙩 𝙤𝙛 𝙖𝙫𝙖𝙞𝙡𝙖𝙗𝙡𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨 🙋‍♂️
+
 """
 
 buttons = [
@@ -102,7 +103,7 @@ HELP_STRINGS = f"""
 )
 
 
-DONATE_STRING = """Hi There, If you want to donate, you can leave a message. Here is the username 👉 [Hasindu Himasara](t.me/HASINDU_HIMASARA)"""
+DONATE_STRING = """You can donate and send a message to this Telegram Username. @HASINDU_HIMASARA (Owner) 👉 [Hasindu Himasara](t.me/HASINDU_HIMASARA)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -786,18 +787,7 @@ def donate(update: Update, context: CallbackContext):
     if chat.type == "private":
         update.effective_message.reply_text(
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
-        )
-        update.effective_message.reply_text(
-           "You can donate and send a message to this Telegram Username. @HASINDU_HIMASARA (Owner)"
-            "[here]({})".format(DONATION_LIN),
-            parse_mode=ParseMode.MARKDOWN,
-        )
-
-
-    else:
-        pass
-
-
+       
 def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
