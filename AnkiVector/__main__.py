@@ -788,8 +788,11 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
         update.effective_message.reply_text(
-            "You can donate and send a message to this Telegram Username. @HASINDU_HIMASARA (Owner)"
+           "You can donate and send a message to this Telegram Username. @HASINDU_HIMASARA (Owner)"
+            "[here]({})".format(DONATION_LIN),
+            parse_mode=ParseMode.MARKDOWN,
         )
+
 
     else:
         pass
