@@ -1,5 +1,5 @@
 *ALTEX BOT*
-*DEVELOPER HASINDU HIMASARA</>*\n\n
+*DEVELOPER HASINDU HIMASARA</>*
 *Powerd By Programming Boy Corporation ©️*</>
 
 ### Deployment
