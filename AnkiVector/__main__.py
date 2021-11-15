@@ -366,7 +366,7 @@ def AnkiVector_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"* Hi There  The name's Altex Bot\n\nAs  You I'm a next generational group management bot developed by Hasindu HImasara.* "
-            f"\n\n Join [PBC MAIN BOT UPDATES](https://t.me/TECH_WIDE_GROUP) To Keep Yourself Updated About Altex Bot"
+            f"\n\n Join [Altex Bot UPDATES](https://t.me/TECH_WIDE_GROUP) To Keep Yourself Updated About Altex Bot"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
