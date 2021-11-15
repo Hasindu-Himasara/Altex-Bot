@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Altex Bot TO YOUR GROUP ➕", url="t.me/PBC_MAIN_LK_BOT?startgroup=true"
+            text="➕ Altex Bot TO YOUR GROUP ➕", url="t.me/Altex_SL_Bot?startgroup=true"
         ),
     ],
 ]
