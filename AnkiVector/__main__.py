@@ -190,7 +190,7 @@ def start(update: Update, context: CallbackContext):
     uptime = get_readable_time((time.time() - StartTime))
         if update.effective_chat.type == "private":
         if len(args) >= 1:
-            if args[0].lower() == "help":
+            if args[0].lower() == "nohelpid":
                 send_help(update.effective_chat.id, HELP_STRINGS)
             elif args[0].lower().startswith("ghelp_"):
                 mod = args[0].lower().split("_", 1)[1]
