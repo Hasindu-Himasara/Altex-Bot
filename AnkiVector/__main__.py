@@ -188,9 +188,9 @@ def test(update, context):
 def start(update: Update, context: CallbackContext):
     args = context.args
     uptime = get_readable_time((time.time() - StartTime))
-        if update.effective_chat.type == "private":
+    if update.effective_chat.type == "private":
         if len(args) >= 1:
-            if args[0].lower() == "nohelpid":
+            if args[0].lower() == "help":
                 send_help(update.effective_chat.id, HELP_STRINGS)
             elif args[0].lower().startswith("ghelp_"):
                 mod = args[0].lower().split("_", 1)[1]
@@ -203,7 +203,7 @@ def start(update: Update, context: CallbackContext):
                         [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
                     ),
                 )
-
+                
             elif args[0].lower().startswith("stngs_"):
                 match = re.match("stngs_(.*)", args[0].lower())
                 chat = dispatcher.bot.getChat(match.group(1))
