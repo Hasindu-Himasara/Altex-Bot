@@ -85,10 +85,10 @@ buttons = [
     ],
 ]
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/905e7738282297d3e43c1.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/67ab9a6d9d46b32fe6bdd.jpg"
 
 HELP_STRINGS = f"""
-*Altex Main Commands :* [🤖](https://telegra.ph/file/905e7738282297d3e43c1.jpg)
+*Altex Main Commands :* [🤖](https://telegra.ph/file/67ab9a6d9d46b32fe6bdd.jpg)
 
 ☘ /start: Starts me! You've probably already used this.
 ☘ /help: Click this, I'll let you know about myself!
