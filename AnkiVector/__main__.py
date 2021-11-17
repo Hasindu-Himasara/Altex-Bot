@@ -72,7 +72,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(text="🛠 UPDATES CHANNEL 🛠", url="https://t.me/TECH_WIDE_OFFICIAL"),
-        InlineKeyboardButton(text="☘️ SUPPORT GROUP ☘️", url="https://t.me/https://t.me/TECH_WIDE_GROUP"),
+        InlineKeyboardButton(text="☘️ SUPPORT GROUP ☘️", url="https://t.me/TECH_WIDE_GROUP"),
     ],
     [
         InlineKeyboardButton(text="🙋‍♂️ DEVELOPER 🙋‍♂️", url="https://t.me/HASINDU_HIMASARA"),
