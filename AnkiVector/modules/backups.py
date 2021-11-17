@@ -366,7 +366,7 @@ def put_chat(chat_id, value, chat_data):
 def get_chat(chat_id, chat_data):
     # print(chat_data)
     try:
-        value = chat_data[chat_id]["backups"]
+        value = chat_data[chat_id]["backups 📤"]
         return value
     except KeyError:
         return {"status": False, "value": False}
