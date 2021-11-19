@@ -48,7 +48,7 @@ async def song(client, message):
     if args.startswith(" "):
         await message.reply("Enter a song name. Check /help")
         return ""
-    status = await message.reply("Processing...")
+    status = await message.reply("🙁 The song is downloaded not from that command but from this command /music")
     video_link = yt_search(args)
     if not video_link:
         await status.edit("Song not found.")
