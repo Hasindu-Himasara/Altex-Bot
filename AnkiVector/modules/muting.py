@@ -68,13 +68,13 @@ def mute(update: Update, context: CallbackContext) -> str:
         bot.restrict_chat_member(chat.id, user_id, chat_permissions)
         bot.sendMessage(
             chat.id,
-            f"Muted <b>{html.escape(member.user.first_name)}</b> with no expiration date!",
+            f"Muted <b>{html.escape(member.user.first_name)}</b> is Muted successfully ✔",
             parse_mode=ParseMode.HTML,
         )
         return log
 
     else:
-        message.reply_text("This user is already muted!")
+        message.reply_text("This user is already muted! 👀")
 
     return ""
 
@@ -99,7 +99,7 @@ def smute(update: Update, context: CallbackContext) -> str:
     try:
         member = chat.get_member(user_id)
     except BadRequest as excp:
-        if excp.message == "User not found":
+        if excp.message == "🙁 User not found":
             return ""
         else:
             raise
@@ -156,7 +156,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
             and member.can_send_other_messages
             and member.can_add_web_page_previews
         ):
-            message.reply_text("This user already has the right to speak.")
+            message.reply_text("This user already has the right to speak. ✔")
         else:
             chat_permissions = ChatPermissions(
                 can_send_messages=True,
