@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Hasindu-Himasara 
-Damantha126
-/
-The-Anki-Vector
-Public
-2
-33136
-Code
-Pull requests
-Discussions
-Actions
-Projects
-Wiki
-Security
-Insights
-The-Anki-Vector/AnkiVector/modules/meme.py /
-@Damantha126
-Damantha126 pylint: auto fixes
-Latest commit 0db8fb9 on Jul 23
- History
- 1 contributor
-595 lines (503 sloc)  18.1 KB
-   
 import html
 import random
 import re
@@ -618,16 +588,3 @@ dispatcher.add_handler(DICE_HANDLER)
 dispatcher.add_handler(YESNOWTF_HANDLER)
 dispatcher.add_handler(GDMORNING_HANDLER)
 dispatcher.add_handler(GDNIGHT_HANDLER)
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
