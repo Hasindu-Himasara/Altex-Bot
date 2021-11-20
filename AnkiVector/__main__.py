@@ -71,12 +71,12 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🛠 UPDATES CHANNEL 🛠", url="https://t.me/TECH_WIDE_OFFICIAL"),
-        InlineKeyboardButton(text="☘️ SUPPORT GROUP ☘️", url="https://t.me/TECH_WIDE_GROUP"),
+        InlineKeyboardButton(text="🛠 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🛠", url="https://t.me/TECH_WIDE_OFFICIAL"),
+        InlineKeyboardButton(text="☘️ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋 ☘️", url="https://t.me/Altex_Support"),
     ],
     [
-        InlineKeyboardButton(text="🙋‍♂️ DEVELOPER 🙋‍♂️", url="https://t.me/HASINDU_HIMASARA"),
-        InlineKeyboardButton(text="❓ HELP ❓", url="http://t.me/Altex_SL_Bot?start=help"),
+        InlineKeyboardButton(text="🙋‍♂️ 𝒟𝐸𝒱𝐸𝐿𝒪𝒫𝐸𝑅 🙋‍♂️", url="https://t.me/HASINDU_HIMASARA"),
+        InlineKeyboardButton(text="❓ 𝑯𝑬𝑳𝑷 ❓", url="http://t.me/Altex_SL_Bot?start=help"),
     ],
     [
         InlineKeyboardButton(
@@ -366,7 +366,7 @@ def AnkiVector_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"* Hi There  The name's Altex Bot\n\nAs  You I'm a next generational group management bot developed by Hasindu HImasara.* "
-            f"\n\n Join [Altex Bot UPDATES](https://t.me/TECH_WIDE_GROUP) To Keep Yourself Updated About Altex Bot"
+            f"\n\n Join [Altex Bot Support](https://t.me/Altex_Support) To Keep Yourself Updated About Altex Bot"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
@@ -399,7 +399,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Altex Bot Support](https://t.me/TECH_WIDE_GROUP).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Altex Bot Support](https://t.me/Altex_Support).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
