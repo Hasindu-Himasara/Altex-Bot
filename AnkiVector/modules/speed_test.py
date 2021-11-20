@@ -16,8 +16,8 @@ def convert(speed):
 def speedtestxyz(update: Update, context: CallbackContext):
     buttons = [
         [
-            InlineKeyboardButton("Image", callback_data="speedtest_image"),
-            InlineKeyboardButton("Text", callback_data="speedtest_text"),
+            InlineKeyboardButton("🧁 Image", callback_data="speedtest_image"),
+            InlineKeyboardButton("🍀 Text", callback_data="speedtest_text"),
         ]
     ]
     update.effective_message.reply_text(
@@ -30,7 +30,7 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
     query = update.callback_query
 
     if query.from_user.id in DEV_USERS:
-        msg = update.effective_message.edit_text("Running a speedtest....")
+        msg = update.effective_message.edit_text("🚀 𝙍𝙪𝙣𝙣𝙞𝙣𝙜 𝙖 𝙨𝙥𝙚𝙚𝙙𝙩𝙚𝙨𝙩....")
         speed = speedtest.Speedtest()
         speed.get_best_server()
         speed.download()
