@@ -67,7 +67,7 @@ async def download_video(v_url):
         song = False
         video = True
     try:
-        await rkp.edit("🚀 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙑𝙞𝙙𝙚𝙤 𝙥𝙡𝙚𝙖𝙨𝙚 𝙬𝙖𝙞𝙩...")
+        await rkp.edit("`🚀 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙑𝙞𝙙𝙚𝙤 𝙥𝙡𝙚𝙖𝙨𝙚 𝙬𝙖𝙞𝙩...`")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
