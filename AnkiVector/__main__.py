@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "☘ Hi There I'am Altex Bot\n\n◇───────────────◇\n\n◇───────────────◇\n🙋‍♂️ Powerd By Programming Boy Corporation ©️\n\n☘ I'm awake already!\n<b>Haven't slept since 😴:</b> <code>{}</code>".format(
+            "☘ Hi There I'am Altex Bot\n\n◇───────────────◇\n\n◇───────────────◇\n🙋‍♂️ Powerd By Programming Boy Corporation ©️\n\n☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -803,7 +803,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "☘ I am now online!\n✅ Bot Restarted successfully ✅\n\n◈──────────────────◈\n\n◈──────────────────◈\n🙋‍♂️ Powerd By Programming Boy Corporation ©️")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "☘ I am now online!\n🧁 From now on the bot will work successfully ✅\n\n◈──────────────────◈\n\n◈──────────────────◈\n🙋‍♂️ Powerd By Programming Boy Corporation ©️")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
