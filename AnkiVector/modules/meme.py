@@ -562,12 +562,10 @@ YESNOWTF_HANDLER = DisableAbleCommandHandler("decide", yesnowtf)
 GDMORNING_HANDLER = DisableAbleMessageHandler(
     Filters.regex(r"(?i)(goodmorning|gm)"),
     goodmorning,
-    friendly="gm",
+    friendly="goodmorning",
 )
 GDNIGHT_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"(?i)(goodnight|gn)"), 
-    goodnight, 
-    friendly="gn"
+    Filters.regex(r"(?i)(goodnight|gn)"), goodnight, friendly="goodnight"
 )
 
 
