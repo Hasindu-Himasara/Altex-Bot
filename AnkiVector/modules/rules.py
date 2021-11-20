@@ -97,7 +97,7 @@ def set_rules(update: Update, context: CallbackContext):
 def clear_rules(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
     sql.set_rules(chat_id, "")
-    update.effective_message.reply_text("Successfully cleared rules!")
+    update.effective_message.reply_text("Successfully cleared rules ✅\n\n◇───────────────◇\n\n◇───────────────◇")
 
 
 def __stats__():
@@ -115,7 +115,7 @@ def __migrate__(old_chat_id, new_chat_id):
 
 
 def __chat_settings__(chat_id, user_id):
-    return f"This chat has had it's rules set: `{bool(sql.get_rules(chat_id))}`"
+    return f"This chat has had it's rules set ✅\n◇───────────────◇: `{bool(sql.get_rules(chat_id))}`"
 
 
 __help__ = """
