@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Hasindu-Himasara 
+Damantha126
+/
+The-Anki-Vector
+Public
+2
+33136
+Code
+Pull requests
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+The-Anki-Vector/AnkiVector/modules/meme.py /
+@Damantha126
+Damantha126 pylint: auto fixes
+Latest commit 0db8fb9 on Jul 23
+ History
+ 1 contributor
+595 lines (503 sloc)  18.1 KB
+   
 import html
 import random
 import re
@@ -480,7 +510,7 @@ def stretch(update, context):
 def goodnight(update, context):
     message = update.effective_message
     first_name = update.effective_user.first_name
-    reply = f"😴 Good Night! {escape_markdown(first_name)}"
+    reply = f"Good Night! {escape_markdown(first_name)}"
     message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
 
 
@@ -489,7 +519,7 @@ def goodnight(update, context):
 def goodmorning(update, context):
     message = update.effective_message
     first_name = update.effective_user.first_name
-    reply = f"🥰 Good Morning! {escape_markdown(first_name)}"
+    reply = f"Good Morning! {escape_markdown(first_name)}"
     message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
 
 
@@ -514,22 +544,17 @@ __help__ = """
  ✪ /plet <text>*:* make ur text sticker in different colours
  
  ✪ /truth or /dare*:* Send random truth or dare.
-
 *Memes*
 ✪ /hitler*:* Quote a message and type this command to make a caption of hitler
 ✪ /mock*:* Does the same as /hitler but spongemock instead
 ✪ /kim*:* Does the same as /hitler but with Kim Jong Un instead (O no plox dont bomb my house)
 ✪ /rmeme*:* Sends random meme scraped from reddit
 *Regex based memes:*
-
 ✪ /decide can be also used with regex like: `Liza? <question>: randomly answer "Yes, No" etc.`
-
 Some other regex filters are:
 `goodmorning`, `good morning` or `goodnight`, `good night`.
-
 Suzuya will reply random strings accordingly when these words are used!
 All regex filters can be disabled incase u don't want... like: `/disable goodnight`.
-
 """
 
 __mod_name__ = "Memes 🤪"
@@ -560,12 +585,12 @@ RECITE_HANDLER = DisableAbleCommandHandler("recite", recite)
 DICE_HANDLER = DisableAbleCommandHandler("roll", dice)
 YESNOWTF_HANDLER = DisableAbleCommandHandler("decide", yesnowtf)
 GDMORNING_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"(?i)(goodmorning|gm)"),
+    Filters.regex(r"(?i)(goodmorning|good morning)"),
     goodmorning,
     friendly="goodmorning",
 )
 GDNIGHT_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"(?i)(goodnight|gn)"), goodnight, friendly="goodnight"
+    Filters.regex(r"(?i)(goodnight|good night)"), goodnight, friendly="goodnight"
 )
 
 
@@ -593,3 +618,16 @@ dispatcher.add_handler(DICE_HANDLER)
 dispatcher.add_handler(YESNOWTF_HANDLER)
 dispatcher.add_handler(GDMORNING_HANDLER)
 dispatcher.add_handler(GDNIGHT_HANDLER)
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
