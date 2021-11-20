@@ -106,8 +106,8 @@ def ban(update: Update, context: CallbackContext) -> str:
         chat.kick_member(user_id)
         # bot.send_sticker(chat.id, BAN_STICKER)  # banhammer marie sticker
         reply = (
-            f"<code>❕</code><b>Ban Event</b>\n"
-            f"<code> </code><b>•  User:</b> {mention_html(member.user.id, html.escape(member.user.first_name))}"
+            f"<code>❕</code>Banning that person is successful ✅\n\nI banned that person 👀\n\n◇───────────────◇\n"
+            f"<code> </code>👀 User:{mention_html(member.user.id, html.escape(member.user.first_name))}"
         )
         if reason:
             reply += f"\n<code> </code><b>•  Reason:</b> \n{html.escape(reason)}"
@@ -115,7 +115,7 @@ def ban(update: Update, context: CallbackContext) -> str:
         return log
 
     except BadRequest as excp:
-        if excp.message == "Reply message not found":
+        if excp.message == "❌ Reply message not found":
             # Do not reply
             message.reply_text("Banned!", quote=False)
             return log
@@ -220,13 +220,13 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
         member = chat.get_member(user_id)
     except BadRequest as excp:
         if excp.message == "User not found":
-            message.reply_text("I can't seem to find this user.")
+            message.reply_text("🙂 I can't seem to find this user.")
             return log_message
         else:
             raise
 
     if user_id == bot.id:
-        message.reply_text("I'm not gonna BAN myself, are you crazy?")
+        message.reply_text("I'm not gonna BAN myself, are you crazy? 😅")
         return log_message
 
     if is_user_ban_protected(chat, user_id, member):
@@ -287,7 +287,7 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
                 chat.id,
                 excp.message,
             )
-            message.reply_text("Well damn, I can't ban that user.")
+            message.reply_text("😎 Well damn, I can't ban that user.")
 
     return log_message
 
