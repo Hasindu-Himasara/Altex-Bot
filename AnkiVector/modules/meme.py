@@ -480,7 +480,7 @@ def stretch(update, context):
 def goodnight(update, context):
     message = update.effective_message
     first_name = update.effective_user.first_name
-    reply = f"Good Night! {escape_markdown(first_name)}"
+    reply = f"😴 Good Night! {escape_markdown(first_name)}"
     message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
 
 
@@ -489,7 +489,7 @@ def goodnight(update, context):
 def goodmorning(update, context):
     message = update.effective_message
     first_name = update.effective_user.first_name
-    reply = f"Good Morning! {escape_markdown(first_name)}"
+    reply = f"🥰 Good Morning! {escape_markdown(first_name)}"
     message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
 
 
@@ -560,12 +560,14 @@ RECITE_HANDLER = DisableAbleCommandHandler("recite", recite)
 DICE_HANDLER = DisableAbleCommandHandler("roll", dice)
 YESNOWTF_HANDLER = DisableAbleCommandHandler("decide", yesnowtf)
 GDMORNING_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"(?i)(goodmorning|good morning)"),
+    Filters.regex(r"(?i)(goodmorning|gm)"),
     goodmorning,
-    friendly="goodmorning",
+    friendly="gm",
 )
 GDNIGHT_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"(?i)(goodnight|good night)"), goodnight, friendly="goodnight"
+    Filters.regex(r"(?i)(goodnight|gn)"), 
+    goodnight, 
+    friendly="gn"
 )
 
 
