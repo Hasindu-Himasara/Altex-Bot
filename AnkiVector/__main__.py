@@ -71,8 +71,8 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🛠 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🛠", url="https://t.me/Sri_Lanka_News_Channel"),
-        InlineKeyboardButton(text="☘️ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋 ☘️", url="https://t.me/Sri_Lanka_News"),
+        InlineKeyboardButton(text="🛠 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🛠", url="https://t.me/Altex_Support"),
+        InlineKeyboardButton(text="☘️ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋 ☘️", url="https://t.me/Altex_Support"),
     ],
     [
         InlineKeyboardButton(text="🙋‍♂️ 𝒟𝐸𝒱𝐸𝐿𝒪𝒫𝐸𝑅 🙋‍♂️", url="https://t.me/HASINDU_HIMASARA"),
@@ -88,7 +88,7 @@ buttons = [
 ANKIVECTOR_IMG = "https://telegra.ph/file/67ab9a6d9d46b32fe6bdd.jpg"
 
 HELP_STRINGS = f"""
-*Altex Main Commands :* [🤖](https://telegra.ph/file/67ab9a6d9d46b32fe6bdd.jpg)
+*Altex Main Commands :* [🤖](https://telegra.ph/file/4eec982e5b3f4528d988d.jpg)
 
 ☘ /start: Starts me! You've probably already used this.
 ☘ /help: Click this, I'll let you know about myself!
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "☘ Hi There I'am Altex Bot\n\n◇───────────────◇\n\n◇───────────────◇\n🙋‍♂️ Powerd By Programming Boy Corporation ©️\n\n☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
+            "☘ Hi There I'am Altex Bot\n\n◇───────────────◇\n\n◇───────────────◇\n\n☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -418,7 +418,7 @@ def AnkiVector_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [CHANNEL](https://t.me/TECH_WIDE_OFFICIAL)."
+            f"\n\nBased on [Group](https://t.me/Altex_Support)."
             f"\n\n{dispatcher.bot.first_name}'s source code was written by HASINDU_HIMASARA"
             f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
             parse_mode=ParseMode.MARKDOWN,
