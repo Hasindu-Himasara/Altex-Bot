@@ -65,7 +65,7 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 🙋‍♂ Hello There, I'am [Altex Bot](t.me/Altex_SL_Bot)\n
 ☘ I'am a Powerful Group Manager Bot With Cool Modules.\n☘ Made By ʜᴀꜱɪɴᴅᴜ ʜɪᴍᴀꜱᴀʀᴀ </>\n
-☘ Hit /help to find My List Of Available Commands.
+☘ Hit /help to find My List Of Available Commands.\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\◇ ❤\n◇ 🌸◇ 🏝\n◇ ☘\n◇ 💖\n◇ 🎉
  
 """
 
@@ -85,10 +85,10 @@ buttons = [
     ],
 ]
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/4197346a1fdc0da646756.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/d0e86eb4daa1eedafa7c1.jpg"
 
 HELP_STRINGS = f"""
-*Altex Main Commands :* [😎](https://telegra.ph/file/4197346a1fdc0da646756.jpg)
+*Altex Main Commands :* [💖](https://telegra.ph/file/d0e86eb4daa1eedafa7c1.jpg)
 
 ☘ /start: Starts me! You've probably already used this.
 ☘ /help: Click this, I'll let you know about myself!
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "☘ Hi There I'am Altex Bot\n\n◇───────────────◇\n\n◇───────────────◇\n\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\n\n☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
+            "☘ Hi There I'am Altex Bot\n\n◇───────────────◇\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\◇ ❤\n◇ 🌸◇ 🏝\n◇ ☘\n◇ 💖\n◇ 🎉\n\n☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
