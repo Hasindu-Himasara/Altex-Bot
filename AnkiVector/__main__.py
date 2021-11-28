@@ -65,7 +65,7 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 🙋‍♂ Hello There, I'am [Altex Bot](t.me/Altex_SL_Bot)\n
 ☘ I'am a Powerful Group Manager Bot With Cool Modules.\n☘ Made By ʜᴀꜱɪɴᴅᴜ ʜɪᴍᴀꜱᴀʀᴀ </>\n
-☘ Hit /help to find My List Of Available Commands.\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\◇ 🌸\n◇ ☘\n◇ 💖\n◇ 🎉
+☘ Hit /help to find My List Of Available Commands.\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\n◇ 🌸\n◇ ☘\n◇ 💖\n◇ 🎉
  
 """
 
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "☘ Hi There I'am Altex Bot\n\n◇───────────────◇\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\◇ 🌸\n◇ ☘\n◇ 💖\n◇ 🎉\n\n☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
+            "☘ Hi There I'am Altex Bot\n\n◇───────────────◇\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\n◇ 🌸\n◇ ☘\n◇ 💖\n◇ 🎉\n\n☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
