@@ -71,16 +71,16 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🛠 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 🛠", url="https://t.me/Altex_Support"),
-        InlineKeyboardButton(text="☘️ 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝙂𝙍𝙊𝙐𝙋 ☘️", url="https://t.me/Altex_Support"),
+        InlineKeyboardButton(text="🛠 Updates 🛠", url="https://t.me/Altex_Updates"),
+        InlineKeyboardButton(text="☘️ Support ☘️", url="https://t.me/Altex_Support"),
     ],
     [
-        InlineKeyboardButton(text="🙋‍♂️ 𝒟𝐸𝒱𝐸𝐿𝒪𝒫𝐸𝑅 🙋‍♂️", url="https://t.me/HASINDU_HIMASARA"),
-        InlineKeyboardButton(text="❓ 𝑯𝑬𝑳𝑷 ❓", url="http://t.me/AltexSL_BOT?start=help"),
+        InlineKeyboardButton(text="🙋‍♂️ Developer 🙋‍♂️", url="https://t.me/HASINDU_HIMASARA"),
+        InlineKeyboardButton(text="❓ Help ❓", url="http://t.me/AltexSL_BOT?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Altex Bot TO YOUR GROUP ➕", url="t.me/AltexSL_BOT?startgroup=true"
+            text="➕ Add Me to a Group ➕", url="t.me/AltexSL_BOT?startgroup=true"
         ),
     ],
 ]
