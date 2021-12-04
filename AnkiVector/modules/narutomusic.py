@@ -111,7 +111,7 @@ async def download_video(v_url):
     c_time = time.time()
     if song:
         await rkp.edit(
-            f"`Preparing to upload song:`\
+            f"Preparing to upload song 💖:\
         \n**{rip_data['title']}**\
         \nby *{rip_data['uploader']}*"
         )
@@ -133,7 +133,7 @@ async def download_video(v_url):
         os.remove(f"{rip_data['id']}.mp3")
     elif video:
         await rkp.edit(
-            f"`Preparing to upload song :`\
+            f"Preparing to upload song 💖:\
         \n**{rip_data['title']}**\
         \nby *{rip_data['uploader']}*"
         )
@@ -224,7 +224,7 @@ async def download_video(v_url):
     c_time = time.time()
     if song:
         await rkp.edit(
-            f"`Preparing to upload song `\
+            f"Preparing to upload song 💖\
         \n**{rip_data['title']}**\
         \nby *{rip_data['uploader']}*"
         )
