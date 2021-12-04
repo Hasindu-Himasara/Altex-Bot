@@ -65,7 +65,7 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = """
 🙋‍♂ Hello There, I'am [Altex Bot](t.me/Altex_SL_Bot)\n
 ☘ I'am a Powerful Group Manager Bot With Cool Modules.\n☘ Made By ʜᴀꜱɪɴᴅᴜ ʜɪᴍᴀꜱᴀʀᴀ </>\n
-☘ Hit /help to find My List Of Available Commands.\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\n◇ 🌸\n◇ ☘\n◇ 💖\n◇ 🎉
+☘ Hit /help to find My List Of Available Commands.
  
 """
 
