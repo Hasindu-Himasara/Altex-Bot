@@ -21,7 +21,7 @@ def speedtestxyz(update: Update, context: CallbackContext):
         ]
     ]
     update.effective_message.reply_text(
-        "\n🏖 23 Locations\n🔥 Unlimited Bandwith\n🚀 Fastest Servers/n🌺 100% Free\n☘@AltexSL_BOT", reply_markup=InlineKeyboardMarkup(buttons)
+        "\n🏖 23 Locations\n🔥 Unlimited Bandwith\n🚀 Fastest Servers\n🌺 100% Free\n☘@AltexSL_BOT", reply_markup=InlineKeyboardMarkup(buttons)
     )
 
 
@@ -52,14 +52,14 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
         query.answer("You are required to join Heroes Association to use this command.")
 
 
-SPEED_TEST_HANDLER = DisableAbleCommandHandler("speedtest", speedtestxyz)
+SPEED_TEST_HANDLER = DisableAbleCommandHandler("sshacc", speedtestxyz)
 SPEED_TEST_CALLBACKHANDLER = CallbackQueryHandler(
-    speedtestxyz_callback, pattern="speedtest_.*"
+    speedtestxyz_callback, pattern="sshacc_.*"
 )
 
 dispatcher.add_handler(SPEED_TEST_HANDLER)
 dispatcher.add_handler(SPEED_TEST_CALLBACKHANDLER)
 
 __mod_name__ = "☘ SSH ☘"
-__command_list__ = ["speedtest"]
+__command_list__ = ["sshacc"]
 __handlers__ = [SPEED_TEST_HANDLER, SPEED_TEST_CALLBACKHANDLER]
