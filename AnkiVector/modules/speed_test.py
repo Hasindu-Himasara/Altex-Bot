@@ -20,8 +20,8 @@ def speedtestxyz(update: Update, context: CallbackContext):
             InlineKeyboardButton("🍀 Genarate V2ray 🍀", callback_data="speedtest_text"),
         ]
     ]
-    update.effective_message.reply_text(
-        "Select SpeedTest Mode", reply_markup=InlineKeyboardMarkup(buttons)
+    update.effective_message.reply_image(
+        "https://telegra.ph/file/4cbf53b1d947be8c9e131.jpg", reply_markup=InlineKeyboardMarkup(buttons)
     )
 
 
