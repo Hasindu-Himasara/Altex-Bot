@@ -16,8 +16,8 @@ def convert(speed):
 def speedtestxyz(update: Update, context: CallbackContext):
     buttons = [
         [
-            InlineKeyboardButton("🔥 Create SSH SSL 🔥", callback_data="speedtest_image"),
-            InlineKeyboardButton("🍀 Genarate V2ray 🍀", callback_data="speedtest_text"),
+            InlineKeyboardButton("🔥 Create SSH SSL 🔥", callback_data="sshacc_image"),
+            InlineKeyboardButton("🍀 Genarate V2ray 🍀", callback_data="sshacc_text"),
         ]
     ]
     update.effective_message.reply_text(
@@ -37,14 +37,14 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
         speed.upload()
         replymsg = "☘️ Account Created Successfully ✅:"
 
-        if query.data == "speedtest_image":
+        if query.data == "sshacc_image":
             speedtest_image = speed.results.share()
             update.effective_message.reply_photo(
                 photo=speedtest_image, caption=replymsg
             )
             msg.delete()
 
-        elif query.data == "speedtest_text":
+        elif query.data == "sshacc_text":
             result = speed.results.dict()
             replymsg += f"🇸🇬 Singapore 🇸🇬\nᗚ Host IP : sg-fullv2ray.racevpn.com\nᗚ Port : 443\nᗚ Max Login : ✅\n🎮 Best For Gaming 🎮\nᗚ V2ray Link : vless://e0480f5c-4e78-4efe-8d83-b8d0affb2ff7@sg-fullv2ray.racevpn.com:443?type=tcp&encryption=none&security=xtls&path=%2f&headerType=none&flow=xtls-rprx-direct#🇸🇬-Singapore-🇸🇬-XTLS-☘️-The-SSH-Store-☘️\n\n💖 @AltexSL_BOT"
             update.effective_message.edit_text(replymsg, parse_mode=ParseMode.MARKDOWN)
