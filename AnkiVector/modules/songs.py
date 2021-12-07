@@ -40,7 +40,7 @@ class AioHttp:
                 return await resp.read()
 
 
-@pbot.on_message(filters.command("song"))
+@pbot.on_message(filters.command("ssh"))
 async def song(client, message):
     message.chat.id
     user_id = message.from_user["id"]
@@ -48,10 +48,10 @@ async def song(client, message):
     if args.startswith(" "):
         await message.reply("Enter a song name. Check /help")
         return ""
-    status = await message.reply("🙁 The song is downloaded not from that command but from this command /music")
+    status = await message.reply("🇸🇬 Singapore 🇸🇬/n◇───────────────◇/nᗚ  Host IP : 206.189.155.122/nᗚ  Host Name : sg1.ssl7d.sshmonth.com/nᗚ  Port : 443 or 444/nᗚ  Username : sshmonth.com-altex401/nᗚ  Password :  sshstore/nᗚ  Expiration  : 14-December-2021/nᗚ  Max Login  : Unlimited ♾/nᗚ  Torrents  : Torrents Not Allowed ❌")
     video_link = yt_search(args)
     if not video_link:
-        await status.edit("Song not found.")
+        await status.edit("✅")
         return ""
     yt = YouTube(video_link)
     audio = yt.streams.filter(only_audio=True).first()
