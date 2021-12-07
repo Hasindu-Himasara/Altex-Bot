@@ -35,7 +35,7 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
         speed.get_best_server()
         speed.download()
         speed.upload()
-        replymsg = "☘️ Account Created Successfully ✅:"
+        replymsg = "☘️ Account Created Successfully ✅\n🇸🇬 Singapore 🇸🇬\nᗚ Host IP : sg-fullv2ray.racevpn.com\nᗚ Port : 443\nᗚ Max Login : ✅\n🎮 Best For Gaming 🎮\nᗚ V2ray Link : vless://e0480f5c-4e78-4efe-8d83-b8d0affb2ff7@sg-fullv2ray.racevpn.com:443?type=tcp&encryption=none&security=xtls&path=%2f&headerType=none&flow=xtls-rprx-direct#🇸🇬-Singapore-🇸🇬-XTLS-☘️-The-SSH-Store-☘️\n\n💖 @AltexSL_BOT:"
 
         if query.data == "sshacc_image":
             speedtest_image = speed.results.share()
@@ -46,7 +46,7 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
 
         elif query.data == "sshacc_text":
             result = speed.results.dict()
-            replymsg += f"🇸🇬 Singapore 🇸🇬\nᗚ Host IP : sg-fullv2ray.racevpn.com\nᗚ Port : 443\nᗚ Max Login : ✅\n🎮 Best For Gaming 🎮\nᗚ V2ray Link : vless://e0480f5c-4e78-4efe-8d83-b8d0affb2ff7@sg-fullv2ray.racevpn.com:443?type=tcp&encryption=none&security=xtls&path=%2f&headerType=none&flow=xtls-rprx-direct#🇸🇬-Singapore-🇸🇬-XTLS-☘️-The-SSH-Store-☘️\n\n💖 @AltexSL_BOT"
+            replymsg += "🇸🇬 Singapore 🇸🇬\nᗚ Host IP : sg-fullv2ray.racevpn.com\nᗚ Port : 443\nᗚ Max Login : ✅\n🎮 Best For Gaming 🎮\nᗚ V2ray Link : vless://e0480f5c-4e78-4efe-8d83-b8d0affb2ff7@sg-fullv2ray.racevpn.com:443?type=tcp&encryption=none&security=xtls&path=%2f&headerType=none&flow=xtls-rprx-direct#🇸🇬-Singapore-🇸🇬-XTLS-☘️-The-SSH-Store-☘️\n\n💖 @AltexSL_BOT"
             update.effective_message.edit_text(replymsg, parse_mode=ParseMode.MARKDOWN)
     else:
         query.answer("You are required to join Heroes Association to use this command.")
