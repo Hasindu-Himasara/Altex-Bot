@@ -46,14 +46,12 @@ async def song(client, message):
     user_id = message.from_user["id"]
     args = get_arg(message) + " " + "song"
     if args.startswith(" "):
-        await message.reply("🇸🇬 Singapore 🇸🇬/n◇───────────────◇/nᗚ  Host IP : 206.189.155.122/nᗚ  Host Name : sg1.ssl7d.sshmonth.com/nᗚ  Port : 443 or 444/nᗚ  Username : sshmonth.com-altex401/nᗚ  Password :  sshstore/nᗚ  Expiration  : 14-December-2021/nᗚ  Max Login  : Unlimited ♾/nᗚ  Torrents  : Torrents Not Allowed ❌")
-    video_link = yt_search(args)
-    if not video_link:")
+        await message.reply("🇸🇬 Singapore 🇸🇬\n◇───────────────◇\nᗚ  Host IP : 206.189.155.122 /nᗚ  Host Name : sg1.ssl7d.sshmonth.com/nᗚ  Port : 443 or 444\nᗚ  Username : sshmonth.com-altex401/nᗚ  Password :  sshstore")
         return ""
-    status = await message.reply("🇸🇬 Singapore 🇸🇬/n◇───────────────◇/nᗚ  Host IP : 206.189.155.122/nᗚ  Host Name : sg1.ssl7d.sshmonth.com/nᗚ  Port : 443 or 444/nᗚ  Username : sshmonth.com-altex401/nᗚ  Password :  sshstore/nᗚ  Expiration  : 14-December-2021/nᗚ  Max Login  : Unlimited ♾/nᗚ  Torrents  : Torrents Not Allowed ❌")
+    status = await message.reply("Processing...")
     video_link = yt_search(args)
     if not video_link:
-        await status.edit("✅")
+        await status.edit("Song not found.")
         return ""
     yt = YouTube(video_link)
     audio = yt.streams.filter(only_audio=True).first()
@@ -85,4 +83,4 @@ __help__ = """
  ✪ /lyrics <song>*:* returns the lyrics of that song.
 """
 
-__mod_name__ = "Music 🎵"
+__mod_name__ = "SSH"
