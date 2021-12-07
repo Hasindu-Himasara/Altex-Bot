@@ -16,8 +16,8 @@ def convert(speed):
 def speedtestxyz(update: Update, context: CallbackContext):
     buttons = [
         [
-            InlineKeyboardButton("🧁 Image", callback_data="speedtest_image"),
-            InlineKeyboardButton("🍀 Text", callback_data="speedtest_text"),
+            InlineKeyboardButton("🔥 Create SSH SSL 🔥", callback_data="speedtest_image"),
+            InlineKeyboardButton("🍀 Genarate V2ray 🍀", callback_data="speedtest_text"),
         ]
     ]
     update.effective_message.reply_text(
@@ -30,7 +30,7 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
     query = update.callback_query
 
     if query.from_user.id in DEV_USERS:
-        msg = update.effective_message.edit_text("🚀 𝙍𝙪𝙣𝙣𝙞𝙣𝙜 𝙖 𝙨𝙥𝙚𝙚𝙙𝙩𝙚𝙨𝙩....")
+        msg = update.effective_message.edit_text("📡 Creating Your SSH Account. . . . . . . ")
         speed = speedtest.Speedtest()
         speed.get_best_server()
         speed.download()
@@ -61,5 +61,5 @@ dispatcher.add_handler(SPEED_TEST_HANDLER)
 dispatcher.add_handler(SPEED_TEST_CALLBACKHANDLER)
 
 __mod_name__ = "SpeedTest"
-__command_list__ = ["speedtest"]
+__command_list__ = ["sshacc"]
 __handlers__ = [SPEED_TEST_HANDLER, SPEED_TEST_CALLBACKHANDLER]
