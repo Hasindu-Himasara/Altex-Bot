@@ -30,7 +30,7 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
     query = update.callback_query
 
     if query.from_user.id in DEV_USERS:
-        msg = update.effective_message.edit_text("📡 Creating Your SSH Account. . . . . . . ")
+        msg = update.effective_message.edit_text("📡 Creating Your SSH Account. . . . . . .")
         speed = speedtest.Speedtest()
         speed.get_best_server()
         speed.download()
@@ -60,6 +60,6 @@ SPEED_TEST_CALLBACKHANDLER = CallbackQueryHandler(
 dispatcher.add_handler(SPEED_TEST_HANDLER)
 dispatcher.add_handler(SPEED_TEST_CALLBACKHANDLER)
 
-__mod_name__ = "SpeedTest"
-__command_list__ = ["sshacc"]
+__mod_name__ = "☘ SSH ☘"
+__command_list__ = ["speedtest"]
 __handlers__ = [SPEED_TEST_HANDLER, SPEED_TEST_CALLBACKHANDLER]
