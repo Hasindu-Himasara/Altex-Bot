@@ -48,7 +48,7 @@ async def song(client, message):
     if args.startswith(" "):
         await message.reply("🇸🇬 Singapore 🇸🇬\n◇───────────────◇\nᗚ  Host IP : 206.189.155.122\nᗚ  Host Name : sg1.ssl7d.sshmonth.com\nᗚ  Port : 443 or 444\nᗚ  Username : sshmonth.com-altex401\nᗚ  Password :  sshstore")
         return ""
-    status = await message.reply("Processing...")
+    status = await message.reply("🚀 ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴛʜᴇ sᴇʀᴠᴇʀ....")
     video_link = yt_search(args)
     if not video_link:
         await status.edit("Song not found.")
