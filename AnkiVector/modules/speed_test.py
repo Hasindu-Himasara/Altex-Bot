@@ -42,7 +42,7 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
             update.effective_message.reply_photo(
                 photo=speedtest_image, caption=replymsg
             )
-            m45g.delete()
+ 
 
         elif query.data == "sshacc_text":
             result = speed.results.dict()
