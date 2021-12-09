@@ -81,7 +81,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('⚙️ Generating Logo Please Wait....')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./AnkiVector/resources/blackbg.jpg')
@@ -118,7 +118,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('⚙️ Generating Logo Please Wait....')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./AnkiVector/resources/blackbg.jpg')
@@ -156,7 +156,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('⚙️ Generating Logo Please Wait....')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./AnkiVector/resources/blackbg.jpg')
@@ -276,7 +276,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('⚙️ Generating Logo Please Wait....')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./AnkiVector/resources/blackbg.jpg')
@@ -302,7 +302,7 @@ async def lego(event):
    await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
   
 
-@register(pattern="^/pandalogo ?(.*)")
+@register(pattern="^/logo ?(.*)")
 async def lego(event):
  quew = event.pattern_match.group(1)
  if event.sender_id == OWNER_ID:
@@ -314,7 +314,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('⚙️ Generating Logo Please Wait....')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./AnkiVector/resources/pandabg.png')
@@ -340,7 +340,7 @@ async def lego(event):
    await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
   
 
-@register(pattern="^/spiderlogo ?(.*)")
+@register(pattern="^/logo ?(.*)")
 async def lego(event):
  quew = event.pattern_match.group(1)
  if event.sender_id == OWNER_ID:
@@ -352,16 +352,16 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('⚙️ Generating Logo Please Wait....')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./AnkiVector/resources/spiderbg.png')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
-    pointsize = 25
+    pointsize = 35
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./AnkiVector/resources/font.otf", 170)
+    font = ImageFont.truetype("./AnkiVector/resources/font.otf", 175)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -379,7 +379,7 @@ async def lego(event):
   
   
   
-@register(pattern="^/spider_man_logo ?(.*)")
+@register(pattern="^/logo ?(.*)")
 async def lego(event):
  quew = event.pattern_match.group(1)
  if event.sender_id == OWNER_ID:
@@ -391,7 +391,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('⚙️ Generating Logo Please Wait....')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./AnkiVector/resources/spiderbg (2).png')
@@ -423,11 +423,6 @@ file_helpo = file_help.replace("_", " ")
 
 __help__ = """
  ❍ /logo text :  Create your logo with your name
- ❍ /biglogo text :  Create your logo Bigger Than `logo`
- ❍ /wlogo text :
- ❍ /redlogo text :
- ❍ /pandalogo text
- ❍ /spiderlogo text
- ❍ /spider_man_logo text
+
  """
 __mod_name__ = "Logo Maker"
