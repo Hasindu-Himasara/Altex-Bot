@@ -40,13 +40,13 @@ class AioHttp:
                 return await resp.read()
 
 
-@pbot.on_message(filters.command("ssh"))
+@pbot.on_message(filters.command("stop3014x"))
 async def song(client, message):
     message.chat.id
     user_id = message.from_user["id"]
     args = get_arg(message) + " " + "song"
     if args.startswith(" "):
-        await message.reply("🇸🇬 Singapore 🇸🇬\n◇───────────────◇\nᗚ  Host IP : 206.189.155.122\nᗚ  Host Name : sg1.ssl7d.sshmonth.com\nᗚ  Port : 443 or 444\nᗚ  Username : sshmonth.com-altex401\nᗚ  Password :  sshstore")
+        await message.reply("bnguk8yoy8")
         return ""
     status = await message.reply("🚀 ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴛʜᴇ sᴇʀᴠᴇʀ....")
     video_link = yt_search(args)
