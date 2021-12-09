@@ -63,7 +63,7 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-🙋‍♂ Hello There, I'am [Altex Bot](t.me/Altex_SL_Bot)\n
+🙋‍♂ Hello There, I'am [Altex Bot](t.me/AltexSL_BOT)\n
 ☘ I'am a Powerful Group Manager Bot With Cool Modules.\n☘ Made By ʜᴀꜱɪɴᴅᴜ ʜɪᴍᴀꜱᴀʀᴀ </>\n
 ☘ Hit /help to find My List Of Available Commands.
  
@@ -303,7 +303,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮❮ ｢  Help  for  {}  module 」❯❯❯❯⚊*\n".format(
+                "*⚊◇───────────────◇ ｢  ʜᴇʟᴘ  ғᴏʀ  {}   ᴍᴏᴅᴜʟᴇ 」◇───────────────◇⚊*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -803,7 +803,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "☘ I am now online! ✅\n\n◈──────────────────◈\n\n◈──────────────────◈\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\n◇ 🌸\n◇ ☘\n◇ 💖\n◇ 🎉")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "ɪ·ᴍ ᴏɴʟɪɴᴇ 🚥")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
