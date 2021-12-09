@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "☘ Hi There I'am Altex Bot\n\n◇───────────────◇\n\n◇ 🙈\n◇ 🐕‍🦺\n◇ 🔥\n◇ 🌹\n◇ 🎼\n◇ 🚘\n◇ 🌸\n◇ ☘\n◇ 💖\n◇ 🎉\n\n☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
+            "☘ Hi There I'am Altex Bot\n🌷 This is Most Advanced Group Management Bot.\n\n✍️ Group Support\n☘️ URL Upload\n🚀 Tagger\n🔥 YT Support \n 🍄 Wallpapers\n😂 Memes\n📡 Connection\n➕ Filters\n🖐 Afk\n\n❤️ Altex bot is a Super bot that can be used privately as well as Group Management.\n🌷 A bot who can do a lot of work A very valuable bot that can work on a large scale. Tell your friends about Bot too.\n\n☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -303,7 +303,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊◇───────────────◇ ｢  ʜᴇʟᴘ  ғᴏʀ  {}   ᴍᴏᴅᴜʟᴇ 」◇───────────────◇⚊*\n".format(
+                "*⚊◇────◇ ｢  ʜᴇʟᴘ  ғᴏʀ  {}   ᴍᴏᴅᴜʟᴇ 」◇────◇⚊*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
