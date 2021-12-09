@@ -371,7 +371,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="⚙️ Generating Logo Please Wait....")
+    await tbot.send_file(event.chat_id, fname2, caption="☘️ Logo Created Successfully✅")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -379,7 +379,7 @@ async def lego(event):
   
   
   
-@register(pattern="^/spider_man_logo ?(.*)")
+@register(pattern="^/logo ?(.*)")
 async def lego(event):
  quew = event.pattern_match.group(1)
  if event.sender_id == OWNER_ID:
