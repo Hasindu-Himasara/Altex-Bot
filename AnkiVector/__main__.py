@@ -361,38 +361,44 @@ def help_button(update, context):
 
 
 @run_async
-def AnkiVector_about_callback(update, context):
+def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's Altex Bot\n\nAs  You I'm a next generational group management bot developed by Hasindu HImasara.* "
-            f"\n\n Join [Altex Bot Support](https://t.me/Altex_Support) To Keep Yourself Updated About Altex Bot"
-            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
-            f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
+            text=f" @szrosebot🇱🇰 - A bot to manage your groups with additional features!"
+            f"\n\n Here's the basic help regarding use of @szrosebot🇱🇰."
+            f"\n\n Almost all modules usage defined in the help menu, checkout by sending `/help`"
+            f"\n\n Report error/bugs click the Button ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="How To Use Me", callback_data="aboutmanu_howto"
+                            text="Bᴜɢ'ꜱ🐞", url="t.me/Altex_Support"
                         ),
                         InlineKeyboardButton(
-                            text="Terms and Conditions", callback_data="aboutmanu_tac"
+                            text="updates💁‍♀️", url="t.me/Altex_Updates"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Help", callback_data="help_back")],
+                    [
+                        InlineKeyboardButton(
+                            text="Donate 🤕", url="http://t.me/AltexSL_BOT?start=donate"
+                        ),
+                        InlineKeyboardButton(
+                            text="Inline search 🔎", switch_inline_query_current_chat=""
+                        ),
+                    ],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
                 ]
             ),
         )
     elif query.data == "aboutmanu_back":
         query.message.edit_text(
-            PM_START_TEXT,
-            reply_markup=InlineKeyboardMarkup(buttons),
-            parse_mode=ParseMode.MARKDOWN,
-            timeout=60,
+                PM_START_TEXT,
+                reply_markup=InlineKeyboardMarkup(BUTTONS),
+                parse_mode=ParseMode.MARKDOWN,
+                timeout=60,
         )
 
     elif query.data == "aboutmanu_howto":
