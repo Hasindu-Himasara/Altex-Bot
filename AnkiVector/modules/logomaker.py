@@ -100,7 +100,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="☘️ Logo Created Successfully✅\n\n◇───────────────◇\n💖 AltexSL_BOT")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
@@ -137,11 +137,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="☘️ Logo Created Successfully✅\n\n◇───────────────◇\n💖 AltexSL_BOT")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
+   await event.reply(f'Error Go to Help From  @Altex_Support, {e}')
 
 
 @register(pattern="^/logo ?(.*)")
@@ -179,9 +179,9 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
+   await event.reply(f'Error Go to Help From  @Altex_Support, {e}')
 
-@register(pattern="^/daalogo ?(.*)")
+@register(pattern="^/logo ?(.*)")
 async def logo_gen(event):
     xx = await eor(event, get_string("com_1"))
     name = event.pattern_match.group(1)
@@ -295,11 +295,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="red")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="☘️ Logo Created Successfully✅\n\n◇───────────────◇\n💖 AltexSL_BOT
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
+   await event.reply(f'Error Go to Help From  @Altex_Support, {e}')
   
 
 @register(pattern="^/logo ?(.*)")
@@ -333,11 +333,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="☘️ Logo Created Successfully✅\n\n◇───────────────◇\n💖 AltexSL_BOT")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
+   await event.reply(f'Error Go to Help From Altex_Support, {e}')
   
 
 @register(pattern="^/logo ?(.*)")
@@ -371,11 +371,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="☘️ Logo Created Successfully✅\n\n◇───────────────◇\n💖 AltexSL_BOT")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')  
+   await event.reply(f'Error Go to Help From  @Altex_Support, {e}')  
   
   
   
@@ -410,11 +410,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="☘️ Logo Created Successfully✅\n\n◇───────────────◇\n💖 AltexSL_BOT")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')  
+   await event.reply(f'Error Go to Help From  @Altex_Support, {e}')  
   
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
@@ -422,7 +422,7 @@ file_helpo = file_help.replace("_", " ")
 
 
 __help__ = """
- ❍ /logo text :  Create your logo with your name
+ ❍ /logo text :  Create your logo with your name.
 
  """
-__mod_name__ = "Logo Maker"
+__mod_name__ = "🌷 Logo Maker 🌷"
