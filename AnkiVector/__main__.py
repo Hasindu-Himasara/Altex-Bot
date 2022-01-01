@@ -514,7 +514,7 @@ def get_help(update, context):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Help",
+                                text=f"Help for {module.capitalize()}",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -524,19 +524,19 @@ def get_help(update, context):
                 ),
             )
             return
-         update.effective_message.reply_text(
-                f"Contact me in PM to get help of {module.capitalize()}",
+        update.effective_message.reply_text(
+            "Contact me in PM to get the list of possible commands.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="☘ Help ☘",
+                            text="🌷Help 🌷",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="🌷 Support Chat 🌷",
+                            text="☘ Support Chat ☘",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
                         )
                     ],
