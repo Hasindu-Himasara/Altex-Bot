@@ -63,9 +63,9 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-🙋‍♂ Hello There, I'am [Altex Bot](t.me/AltexSL_BOT)\n
-☘ I'am a Powerful Group Manager Bot With Cool Modules.\n☘ Made By ʜᴀꜱɪɴᴅᴜ ʜɪᴍᴀꜱᴀʀᴀ </>\n
-☘ Hit /help to find My List Of Available Commands.
+✘ Hello There, I'am [Altex Bot](t.me/AltexSL_BOT)\n
+✘ I'am a Powerful Group Manager Bot With Cool Modules.\n☘ Made By ʜᴀꜱɪɴᴅᴜ ʜɪᴍᴀꜱᴀʀᴀ </>\n
+✘ ©2022 @AltexSL_BOT (http://t.me/AltexSL_BOT) Bot All Rights Reserved
  
 """
 
