@@ -217,21 +217,23 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            update.effective_user.first_name
-            update.effective_message.reply_photo(
+            update.effective_message.reply_sticker(
                 ANKIVECTOR_STICKER,
-                caption=PM_START_TEXT,
-                reply_markup=InlineKeyboardMarkup(buttons),
-                parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
             )
+            update.effective_message.reply_text(
+                PM_START_TEXT,
+                reply_markup=InlineKeyboardMarkup(buttons),
+                parse_mode=ParseMode.MARKDOWN,
+            )            
     else:
         update.effective_message.reply_text(
-            "☘ I'm awake already!\n👀 Haven't slept since 😴:<code>{}</code>".format(
+            "🌷 I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
         )
+
 
 
 def error_handler(update, context):
