@@ -1,5 +1,5 @@
 *ALTEX BOT*
-*DEVELOPER HASINDU HIMASARA</>*
+
 
 
 ### Deployment
