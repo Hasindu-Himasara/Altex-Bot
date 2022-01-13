@@ -45,7 +45,7 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("`Downloading Song... Please wait ⏱`")
+    m.edit("**Altex Bot's Downloader**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%\n🎬 **Source**: `YouTube`\n📤 By: @AltexSL_BOT")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             rep = f'🎙 **Title**: [{title[:35]}]({link})\n🎬 **Source**: `YouTube`\n⏱️ **Duration**: `{duration}`\n👁‍🗨 **Views**: `{views}`\n📤 **By**: @AltexSL_BOT '
