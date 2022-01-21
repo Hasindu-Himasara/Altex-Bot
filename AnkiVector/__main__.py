@@ -85,7 +85,7 @@ buttons = [
     ],
 ]
 
-ANKIVECTOR_STICKER = "CAACAgEAAxkBAAITCGHjp2bcyQwfwfGXUX2Z0cLh9C5WAALJAQACxpJxRPIuUk1KiSNOIwQ"
+ANKIVECTOR_STICKER = "CAACAgIAAxkBAAIUJmHqFxUwept4-IwdxYiYnz3PgCpZAAJMAQACMNSdEffeb183gzkcIwQ"
 
 HELP_STRINGS = f"""
 *Altex Main Commands :* [💖](https://telegra.ph/file/d0e86eb4daa1eedafa7c1.jpg)
