@@ -70,16 +70,16 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🛠 Updates 🛠", url="https://t.me/Altex_Updates"),
-        InlineKeyboardButton(text="☘️ Support ☘️", url="https://t.me/Altex_Support"),
+        InlineKeyboardButton(text="🌷 𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/Altex_Updates"),
+        InlineKeyboardButton(text="🌷 𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/Altex_Support"),
     ],
     [
-        InlineKeyboardButton(text="🙋‍♂️ Developer 🙋‍♂️", url="https://t.me/HASINDU_HIMASARA"),
-        InlineKeyboardButton(text="❓ Help ❓", url="http://t.me/AltexSL_BOT?start=help"),
+        InlineKeyboardButton(text="🌷 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁", url="https://t.me/HASINDU_HIMASARA"),
+        InlineKeyboardButton(text="🌷 𝙷𝙴𝙻𝙿", url="http://t.me/AltexSL_BOT?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Me to a Group ➕", url="t.me/AltexSL_BOT?startgroup=true"
+            text="➕ 𝖠𝖽𝖽 𝖬𝖾 𝗍𝗈 𝖺 𝖦𝗋𝗈𝗎𝗉 ➕", url="t.me/AltexSL_BOT?startgroup=true"
         ),
     ],
 ]
@@ -87,14 +87,11 @@ buttons = [
 ANKIVECTOR_STICKER = "CAACAgIAAxkBAAIUJmHqFxUwept4-IwdxYiYnz3PgCpZAAJMAQACMNSdEffeb183gzkcIwQ"
 
 HELP_STRINGS = f"""
-*Altex Main Commands :* [💖](https://telegra.ph/file/d0e86eb4daa1eedafa7c1.jpg)
+*Altex Main Commands :* [💖](https://telegra.ph/file/c62ff41b419a5be0b62d6.jpg)
 
-☘ /start: Starts me! You've probably already used this.
-☘ /help: Click this, I'll let you know about myself!
-☘ /donate: You can support my creater using this command.
-☘ /settings: 
-☘ in PM: will send you your settings for all supported modules.
-☘ in a Group: will redirect you to pm, with all that chat's settings.
+🌷 /start: Starts me! You've probably already used this.
+🌷 /help: Click this, I'll let you know about myself!
+🌷 /donate: You can support my creater using this command.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -804,7 +801,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "ɪ·ᴍ ᴏɴʟɪɴᴇ 🚥")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm Alive 🌷")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
