@@ -41,7 +41,7 @@ async def _(event):
                 end = datetime.now()
                 ms_two = (end - start).seconds
                 os.remove(downloaded_file_name)
-                await h.edit("**Uploaded To Telegraph!\n\n👉  https://telegra.ph{}\n\nUploaded by @AltexSL_BOT🇱🇰**".format(media_urls[0]),link_preview=True)
+                await h.edit("**💎 Uploaded To Telegraph!\n◇───────────────◇\n\n👉 https://telegra.ph{}\n🩸 Uploaded by @AltexSL_BOT🇱🇰\n◇───────────────◇**".format(media_urls[0]),link_preview=True)
         elif input_str == "xt":
             user_object = await tbot.get_entity(r_message.sender_id)
             title_of_page = user_object.first_name # + " " + user_object.last_name
@@ -69,7 +69,7 @@ async def _(event):
             )
             end = datetime.now()
             ms = (end - start).seconds
-            await event.reply("** Uploaded To Telegraph!\n\n👉https://telegra.ph/{} in {} seconds.\n\nUploaded by @AltexSL_BOT🇱🇰**".format(response["path"], ms), link_preview=True)
+            await event.reply("💎 Uploaded To Telegraph!\n◇───────────────◇\n\n👉 https://telegra.ph{}\n🩸 Uploaded by @AltexSL_BOT🇱🇰\n◇───────────────◇**".format(response["path"], ms), link_preview=True)
     else:
         await event.reply("🌷 Reply to a message to get a permanent telegra.ph link.")
 
