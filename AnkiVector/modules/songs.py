@@ -45,10 +45,10 @@ def song(client, message):
         )
         print(str(e))
         return
-    m.edit("**Altex Bot's Downloader**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%\n🎬 **Source**: `YouTube`\n📤 By: @AltexSL_BOT")
+    m.edit("**Altex Bot's Downloader**\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%\n🎬 **Source**: `YouTube`\n📤 By: @AltexSL_BOT\n\n◇───────────────◇\n🌷 Wait 1 Min\n\n◇───────────────◇")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-            rep = f'🎙 **Title**: [{title[:35]}]({link})\n🎬 **Source**: `YouTube`\n⏱️ **Duration**: `{duration}`\n👁‍🗨 **Views**: `{views}`\n📤 **By**: @AltexSL_BOT '
+            rep = f'🎙 **Title**: [{title[:35]}]({link})\n🎬 **Source**: `YouTube`\n⏱️ **Duration**: `{duration}`\n👁‍🗨 **Views**: `{views}`\n📤 **By**: @AltexSL_BOT\n\n◇───────────────◇\n\n◇───────────────◇'
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
@@ -59,7 +59,7 @@ def song(client, message):
         s = message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur,  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join updates", url=f"https://t.me/Altex_Updates")]]))
         m.delete()
     except Exception as e:
-        m.edit('❌ some error')
+        m.edit('❌ some error ❌')
         print(e)
 
     try:
