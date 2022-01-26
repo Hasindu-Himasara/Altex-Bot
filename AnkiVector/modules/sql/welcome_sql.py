@@ -8,14 +8,13 @@ from AnkiVector.modules.helper_funcs.msg_types import Types
 from AnkiVector.modules.sql import BASE, SESSION
 
 DEFAULT_WELCOME = "🌷 Hey there {first}, How are you ?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_GOODBYE = "Nice knowing you!"
 
 DEFAULT_WELCOME_MESSAGES = [
     "🌷 Hey there {first}, How are you ?",  # Discord welcome messages copied
-   
 ]
 DEFAULT_GOODBYE_MESSAGES = [
-   "🤷‍♂️ Good Bye  {first}",
+   "🤷‍♂️ Nice knowing you!\n🌷 User :- {first}",
 ]
 # Line 111 to 152 are references from https://bindingofisaac.fandom.com/wiki/Fortune_Telling_Machine
 
