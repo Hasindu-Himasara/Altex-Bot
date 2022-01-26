@@ -28,4 +28,4 @@ __help__ = """
 ** More **
  - /phone <tp no> : Track Phone no
 """
-__mod_name__ = "🇲🇴🇷🇪 🇹🇴🇴🇱🇸 🎁"
+__mod_name__ = "More Tools🎁"
