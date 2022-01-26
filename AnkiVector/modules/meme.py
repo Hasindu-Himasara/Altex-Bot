@@ -527,7 +527,7 @@ Suzuya will reply random strings accordingly when these words are used!
 All regex filters can be disabled incase u don't want... like: `/disable goodnight`.
 """
 
-__mod_name__ = "Memes 🤪"
+__mod_name__ = "🇲🇪🇲🇪🇸 🤪"
 
 
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat)
