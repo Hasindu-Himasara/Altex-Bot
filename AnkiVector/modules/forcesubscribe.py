@@ -213,4 +213,4 @@ Note: /FSub is an alias of /ForceSubscribe
 
  
 """
-__mod_name__ = "F- Sub 🌍"
+__mod_name__ = "🇫-🇸🇺🇧 🌍"
