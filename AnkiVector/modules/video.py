@@ -67,7 +67,7 @@ async def download_video(v_url):
         song = False
         video = True
     try:
-        await rkp.edit("🚀 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙑𝙞𝙙𝙚𝙤 𝙥𝙡𝙚𝙖𝙨𝙚 𝙬𝙖𝙞𝙩...")
+        await rkp.edit("🌍 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐒𝐭𝐚𝐫𝐭𝐞𝐝\n\n🛠 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐬𝐩𝐞𝐞𝐝 𝐜𝐨𝐮𝐥𝐝 𝐛𝐞 𝐬𝐥𝐨𝐰.")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
@@ -102,7 +102,7 @@ async def download_video(v_url):
     c_time = time.time()
     if song:
         await rkp.edit(
-            f"`Preparing to upload song `\
+            f"`𝚄𝚙𝚕𝚘𝚊𝚍 𝚂𝚝𝚊𝚛𝚝𝚎𝚍`\
         \n**{rip_data['title']}**\
         \nby *{rip_data['uploader']}*"
         )
