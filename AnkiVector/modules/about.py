@@ -8,4 +8,4 @@ __help__ = """
 🌷 Join Updates :- @Altex_Updates
 
 """
-__mod_name__ = "About 🛂"
+__mod_name__ = "🇦🇧🇴🇺🇹 🌷"
