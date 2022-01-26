@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
             )            
     else:
         update.effective_message.reply_text(
-            "🌷 I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>\n\n<b>🇱🇰 Sinahala Language -: 🌷 මම දැනටමත් අවදියෙන් සිටිමි! <code>{}</code> සිට නිදාගෙන නැත.</b>".format(
+            "🌷 I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
