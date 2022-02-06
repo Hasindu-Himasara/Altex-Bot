@@ -1,6 +1,6 @@
 import os
 import requests
-from bot import bot as app
+from AnkiVector import bot as AnkiVector
 
 from pyrogram import Client, filters
 
