@@ -63,28 +63,29 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-✘ Hello There, I'am [Altex Bot](t.me/AltexSL_BOT)
-✘ **©2022 Altex BOT All Rights Reserved**
- 
+🇱🇰 Hᴇʟʟᴏ Tʜᴇʀᴇ, I'ᴍ [Aʟᴛᴇx Bᴏᴛ](t.me/AltexSL_BOT)
+🍕 I'ᴍ ᴀ **Pᴏᴡᴇʀꜰᴜʟʟ** ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ Wɪᴛʜ Cᴏᴏʟ Mᴏᴅᴜʟᴇs. 
+☔️ Tʜɪs ʙᴏᴛ ɪs ᴠᴇʀʏ ᴜsᴇꜰᴜʟ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴅᴀɪʟʏ ᴡᴏʀᴋ ᴇᴀsɪᴇʀ.
+🐬 **2022** Aʟᴛᴇx BOT Aʟʟ Rɪɢʜᴛs Rᴇsᴇʀᴠᴇᴅ
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🌷 𝚄𝙿𝙳𝙰𝚃𝙴𝚂", url="https://t.me/Altex_Updates"),
-        InlineKeyboardButton(text="🌷 𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/Altex_Support"),
+        InlineKeyboardButton(text="🌷 Uᴘᴅᴀᴛᴇs", url="https://t.me/Altex_Updates"),
+        InlineKeyboardButton(text="🌷 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Altex_Support"),
     ],
     [
-        InlineKeyboardButton(text="🌷 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁", url="https://t.me/HASINDU_HIMASARA"),
-        InlineKeyboardButton(text="🌷 𝙷𝙴𝙻𝙿", url="http://t.me/AltexSL_BOT?start=help"),
+        InlineKeyboardButton(text="🌷 Dᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/HASINDU_HIMASARA"),
+        InlineKeyboardButton(text="🌷 Hᴇʟᴘ", url="http://t.me/AltexSL_BOT?start=help"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ 𝖠𝖽𝖽 𝖬𝖾 𝗍𝗈 𝖺 𝖦𝗋𝗈𝗎𝗉 ➕", url="t.me/AltexSL_BOT?startgroup=true"
+            text="➕ Aᴅᴅ ᴍᴇ ᴛᴏ ᴀ ɢʀᴏᴜᴘ ➕", url="t.me/AltexSL_BOT?startgroup=true"
         ),
     ],
 ]
 
-ANKIVECTOR_STICKER = "CAACAgIAAxkBAAIUJmHqFxUwept4-IwdxYiYnz3PgCpZAAJMAQACMNSdEffeb183gzkcIwQ"
+ANKIVECTOR_STICKER = "CAACAgUAAxkBAAIaFGIPIRue5tnurPxUIjGOLiYpA8DMAALUBAACM-d5VBEGKeWaxK2QIwQ"
 
 HELP_STRINGS = f"""
 *Altex Main Commands :* [💖](https://telegra.ph/file/c62ff41b419a5be0b62d6.jpg)
