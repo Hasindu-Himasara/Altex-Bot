@@ -69,7 +69,7 @@ PM_START_TEXT = """
 ☔️ Tʜɪs ʙᴏᴛ ɪs ᴠᴇʀʏ ᴜsᴇꜰᴜʟ ᴛᴏ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴅᴀɪʟʏ ᴡᴏʀᴋ ᴇᴀsɪᴇʀ.
 🐬 **2022** Aʟᴛᴇx BOT Aʟʟ Rɪɢʜᴛs Rᴇsᴇʀᴠᴇᴅ
 
-🌷 <b>Here you can download useful songs from this bot, Vio Download, Wallapers, Imag, Stickers, Make Stickers, Ban, Unban, Welcome Messages, Fonts, Memes, Game, Covid Information, Logger, Telegraph Uploar, File to limk, Upload , Conections, backups, Mute, Unmute, Anti-Spam, Chatbot.Afk</b>
+**🌷 >Here you can download useful songs from this bot, Video Download, Wallapers, Imag, Stickers, Make Stickers, Ban, Unban, Welcome Messages, Fonts, Memes, Game, Covid Information, Logger, Telegraph Uploar, File to limk, Upload , Conections, backups, Mute, Unmute, Anti-Spam, Chatbot.Afk**
 """
 
 buttons = [
