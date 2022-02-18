@@ -85,14 +85,14 @@ buttons = [
     ],
 ]
 
-ANKIVECTOR_STICKER = "CAACAgUAAxkBAAIaFGIPIRue5tnurPxUIjGOLiYpA8DMAALUBAACM-d5VBEGKeWaxK2QIwQ"
+ANKIVECTOR_STICKER = "CAACAgUAAxkBAAIaIWIPJgaCZxsLi0qZY_P7ql_2if1lAALXBAACM-d5VLt4wIcNxCwGIwQ"
 
 HELP_STRINGS = f"""
-*Altex Main Commands :* [💖](https://telegra.ph/file/c62ff41b419a5be0b62d6.jpg)
+**Aʟᴛᴇx Mᴀɪɴ Cᴏᴍᴍᴀɴᴅs** [💖](https://telegra.ph/file/c62ff41b419a5be0b62d6.jpg)
 
-🌷 /start: Starts me! You've probably already used this.
-🌷 /help: Click this, I'll let you know about myself!
-🌷 /donate: You can support my creater using this command.
+🌷 /start: Sᴛᴀʀᴛs ᴍᴇ! Yᴏᴜ'ᴠᴇ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ ᴛʜɪs.
+🌷 /help:  Cʟɪᴄᴋ ᴛʜɪs, I'ʟʟ ʟᴇᴛ ʏᴏᴜ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍʏsᴇʟꜰ!
+🌷 /donate: Yᴏᴜ ᴄᴀɴ sᴜᴘᴘᴏʀᴛ ᴍʏ ᴄʀᴇᴀᴛᴇʀ ᴜsɪɴɢ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
